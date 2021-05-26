@@ -3,7 +3,7 @@ Independent laser motion sensor to sense filament clog or runout.
 
 ### What is it ?
 Block Diagram
-
+![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/V28/26171942.png)  
 
 ### Why I make it?
 
