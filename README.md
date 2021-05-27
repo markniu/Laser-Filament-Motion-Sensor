@@ -1,5 +1,5 @@
 # laser-filament-motion-sensor
-Independent laser motion sensor to sense filament clog or runout.
+This is a independent laser motion sensor to sense filament clog or runout.
 
 ### What is it ?
 Block Diagram
@@ -29,5 +29,11 @@ Block Diagram
 
 
 ### How to check
+you may need to check if it works as you expected after finishing installation at first time.   
 
+pull the filament out of the extruder motor,and then move the extruder motor from the control panel,you can let the filament in or out of the sensor, 
+just make sure there is no movement of the filament while the motor is moving.
+
+if the motor move for  xx seconds,the buzzer will sound and the LED beside the buzzer will light on.
+that means it works,and then you can clear the buzzer by press the reset botton. 
 
