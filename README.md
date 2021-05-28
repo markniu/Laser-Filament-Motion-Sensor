@@ -12,6 +12,8 @@ Block Diagram
 
 ### How to install?
 
+[Install on Ender3/5 CR10](https://github.com/markniu/Laser-Filament-Motion-Sensor/wiki/Install-on-Ender3-5,CR10)
+
  Name     |      Description   
  -------- | :-----------   
  5V     | power input 5V.
