@@ -1,5 +1,6 @@
 # laser-filament-motion-sensor
 This is a independent laser motion sensor to sense filament clog or runout.
+![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/531083500.jpg)  
 
 ### What is it ?
 Block Diagram
