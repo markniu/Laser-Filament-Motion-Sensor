@@ -18,6 +18,8 @@ it works with the motherboard which have run out connector.
 
 [Install on Ender3/5 CR10](https://github.com/markniu/Laser-Filament-Motion-Sensor/wiki/Install-on-Ender3-5,CR10)
 
+![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/1151922.jpg) 
+
  Name     |      Description   
  -------- | :-----------   
  5V     | power input 5V.
@@ -29,7 +31,7 @@ it works with the motherboard which have run out connector.
  LED0     |  will light on when the clog or runout is detected.
  LED1     | Motion detection output,if there is movement on top of the laser sensor chip,it will light on.
  RESET button     | clear the buzzer sound,it will also reset the MCU chip
- USB     | 1,set the sensitive value.2,get the motion data of filament and extruder motor.3,flash firmware if there is new firmware.serial port at baud rate 9600.
+ USB     | 1,set the sensitive value.2,get the motion data of filament and extruder motor.3,flash firmware if there is new firmware.serial port at baud rate 115200.
  Optical_Laser_Chip     | tracking the filament motion. the recommended distance between the chip and filament is at 3~4mm.Compliance to IEC/EN 60825-1 Eye Safety, Class 1 LASER power output level
  
 ### Supported drivers 
