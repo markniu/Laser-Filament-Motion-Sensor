@@ -13,7 +13,7 @@ it works with the motherboard which have run out connector.
 ### What makes it specials?
 1. There is a Micro processor on the board that read the sensor and process the algorithm instead of directly by motherboard,it will more stable.
 2. This tracking system also does not require code wheel, code strip and any special marking on tracking surface for motion control or tracking purposes
-
+3. You can change the sensitivlty,output alarm time and output signal level by [serial tools](https://github.com/markniu/Laser-Filament-Motion-Sensor/blob/main/tools/Fsensor_tool.exe) or send command.
 ### How to install?
 
 [Install on Ender3/5 CR10](https://github.com/markniu/Laser-Filament-Motion-Sensor/wiki/Install-on-Ender3-5,CR10)
