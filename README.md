@@ -56,4 +56,4 @@ just make sure there is no movement of the filament while the motor is moving.
 if the motor move for  xx seconds,the buzzer will sound and the LED beside the buzzer will light on.
 that means it works,and then you can clear the buzzer by press the reset botton. 
 
-### [where to buy ](https://www.pandapi3d.com/product-page/laser-filament-motion-sensor)
+### [Where to buy ](https://www.pandapi3d.com/product-page/laser-filament-motion-sensor)
