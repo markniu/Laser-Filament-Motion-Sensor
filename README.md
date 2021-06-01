@@ -43,7 +43,8 @@ have test the A4988/TMC2208/TMC2209
  TMC2209     |  standalone | >500mA
  
  
-note: If the motor current is too low, it can not work probably,movement cannot be recognized,because this module read the wave of motor current.
+### note: 
+If the motor current is too low, it can not work probably,movement cannot be recognized,because this module read the wave of motor current.
 recommend use it as standalone mode.for some uart mode, you need to increase the current.also there is a hardware solution for the low current,need to change 4 resistors values,you can contact me with email or facebook.
 
 ### How to check
