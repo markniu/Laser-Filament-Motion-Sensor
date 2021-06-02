@@ -12,7 +12,7 @@ it works with the motherboard which have run out connector.
 
 ### What makes it specials?
 1. It compares the movement of extruder and filament at the same time.that means you do not need to worry about how long of the travel length and how much of the travel time in non print moves while printing
-2. There is a Micro controller on the board that read the sensor and process the algorithm instead of directly by motherboard,it will more stable.
+2. There is a micro controller on the board that read the sensor and process the algorithm instead of directly by motherboard that process this with the lowest priority and not fast enough sometimes
 3. This tracking system also does not require code wheel, code strip and any special marking on tracking surface.
 4. You can change the sensitivlty,output alarm time and output signal level by [serial tools](https://github.com/markniu/Laser-Filament-Motion-Sensor/blob/main/tools/Fsensor_tool.exe) or send command.
 ### How to install?
