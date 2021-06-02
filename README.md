@@ -26,7 +26,7 @@ it works with the motherboard which have run out connector.
  -------- | :-----------   
  5V     | power input 5V.
  GND    | power input GND from your printer  
- S      | output of filament clogged or runout,active low.connect this line to the runout pin on your printer control board that can pause the printing process.
+ S      | output of filament clogged or runout,active low.connect this line to the runout pin on your printer control board that can pause the printing process.make sure your printer have runout function,sometime you need to configure the firmware.
  MOTOR_IN     | unplug the extruder motor line and then connect to this port  
  MOTOR_OUT     | connect this port to your extruder motor with the line in the parcel.
  Buzzer  |  will sound when the clog or runout is detected, >85db.
