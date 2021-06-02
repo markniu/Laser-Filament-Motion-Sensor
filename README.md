@@ -36,6 +36,15 @@ it works with the motherboard which have run out connector.
  USB     | 1,set the sensitive value.2,get the motion data of filament and extruder motor.3,flash firmware if there is new firmware.serial port at baud rate 115200.
  Optical_Laser_Chip     | tracking the filament motion. the recommended distance between the chip and filament is at 3~4mm.Compliance to IEC/EN 60825-1 Eye Safety, Class 1 LASER power output level
  
+#### Setting 
+Connect sensor to your printer with microUSB port,run [Fsensor_tool](https://github.com/markniu/Laser-Filament-Motion-Sensor/blob/main/tools/Fsensor_tool.exe), choose the serial port and click open.and then you can see the value on the board,and set them as you like.
+
+ Name     |      Description   
+ -------- | :-----------  
+ Sensitivity | Time period no filament movement.the move comparison time period is 0.5s,so if you set 5, it means if only the motor moves for continue 2.5s,it will be triggered and alarm.
+ Alarm and Signal output time | Time of the buzzer sound and signal output, it can be set always on or time you want.
+ Signal output Logic level | LOW or HIGH,the default is LOW.  the recommended value is LOW.
+
 ### Supported drivers 
 have test the A4988/TMC2208/TMC2209
  Driver     |      mode  | current    
