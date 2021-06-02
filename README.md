@@ -8,8 +8,6 @@ Block Diagram
 if it detect the clog or runout,it will set the output signal line to low or high voltage which tell the mother board to pause printing.
 it works with the motherboard which have run out connector. 
 
-### Why I make it?
-
 ### What makes it specials?
 1. It compares the movement of extruder and filament at the same time.that means you do not need to worry about how long of the travel length and how much of the travel time in non print moves while printing
 2. There is a micro controller on the board that read the sensor and process the algorithm instead of directly by motherboard that process this with the lowest priority and not fast enough sometimes
@@ -17,7 +15,7 @@ it works with the motherboard which have run out connector.
 4. This tracking system also does not require code wheel, code strip and any special marking on tracking surface.
 5. You can change the sensitivlty,output alarm time and output signal level by [serial tools](https://github.com/markniu/Laser-Filament-Motion-Sensor/blob/main/tools/Fsensor_tool.exe) or send command.
 ### How to install?
-
+ The usage is almost the same as the switch filament runout sensor. there are a lot of instruction on that on the internet.
 [Install on Ender3/5 CR10](https://github.com/markniu/Laser-Filament-Motion-Sensor/wiki/Install-on-Ender3-5,CR10)
 
 ![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/1151922.jpg) 
@@ -53,12 +51,7 @@ have test the A4988/TMC2208/TMC2209
  TMC2208    |  standalone | >500mA
  TMC2209     |  standalone | >500mA
  
- 
-### note: 
-If the motor current is too low, it can not work probably,movement cannot be recognized,because this module read the wave of motor current.
-recommend use it as standalone mode.for some uart mode, you need to increase the current.also there is a hardware solution for the low current,need to change 4 resistors values,you can contact me with email or facebook.
-
-### How to check
+ ### How to check
 you may need to check if it works as you expected after finishing installation at first time.   
 
 pull the filament out of the extruder motor,and then move the extruder motor from the control panel,you can let the filament in or out of the sensor, 
@@ -66,5 +59,11 @@ just make sure there is no movement of the filament while the motor is moving.
 
 if the motor move for  xx seconds,the buzzer will sound and the LED beside the buzzer will light on.
 that means it works,and then you can clear the buzzer by press the reset botton. 
+
+### note: 
+If the motor current is too low, it can not work probably,movement cannot be recognized,because this module read the wave of motor current.
+recommend use it as standalone mode.for some uart mode, you need to increase the current.also there is a hardware solution for the low current,need to change 4 resistors values,you can contact me with email or facebook.
+
+
 
 ### [Where to buy ](https://www.pandapi3d.com/product-page/laser-filament-motion-sensor)
