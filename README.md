@@ -42,7 +42,7 @@ Connect sensor to your printer with microUSB port,run [Fsensor_tool](https://git
  Name     |      Description   
  -------- | :-----------  
  Sensitivity | Time period no filament movement.the move comparison time period is 0.5s,so if you set 5, it means if only the motor moves for continue 2.5s,it will be triggered and alarm.
- Alarm and Signal output time | Time of the buzzer sound and signal output, it can be set always on or time you want.
+ Alarm and Signal output time | Time of the buzzer sound and signal output, it can be set always on or other time you want.
  Signal output Logic level | LOW or HIGH,the default is LOW.  the recommended value is LOW.
 
 ### Supported drivers 
