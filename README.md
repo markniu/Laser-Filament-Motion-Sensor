@@ -15,9 +15,9 @@ it works with the motherboard which have run out connector.
 4. This tracking system also does not require code wheel, code strip and any special marking on tracking surface.
 5. You can change the sensitivlty,output alarm time and output signal level by [serial tools](https://github.com/markniu/Laser-Filament-Motion-Sensor/blob/main/tools/Fsensor_tool.exe) or send command.
 ### How to install?
- The usage is almost the same as the switch filament runout sensor. there are a lot of instruction on that on the internet,[Install runout sensor on Ender3/5 CR10](https://youtu.be/5Jt-Qc67FDo).
+ The usage is almost the same as the switch filament runout sensor. there are a lot of instruction on that on the internet,[DIY filament runout sensor](https://youtu.be/gwHpXaj_6xE) , [Install runout sensor on Ender3/5 CR10](https://youtu.be/5Jt-Qc67FDo).
  
-beside that I will also add more instructions [Install on Ender3/5 CR10](https://github.com/markniu/Laser-Filament-Motion-Sensor/wiki/Install-on-Ender3-5,CR10)
+beside that I will also add more instructions  [Install on Ender3/5 CR10](https://github.com/markniu/Laser-Filament-Motion-Sensor/wiki/Install-on-Ender3-5,CR10)
 
 ![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/1151922.jpg) 
 
