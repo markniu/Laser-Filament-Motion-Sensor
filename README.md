@@ -66,5 +66,6 @@ If the motor current is too low, it can not work probably,movement cannot be rec
 recommend use it as standalone mode.for some uart mode, you need to increase the current.also there is a hardware solution for the low current,need to change 4 resistors values,you can contact me with email or facebook.
 
 #### [STL File](https://www.thingiverse.com/thing:4887998)
+mount on the PCB with 2 * Self Tapping Screw(M2.3*8)
 
 ### [Where to buy ](https://www.pandapi3d.com/product-page/laser-filament-motion-sensor)
