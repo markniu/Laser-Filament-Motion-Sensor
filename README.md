@@ -14,6 +14,7 @@ it works with the motherboard which have run out connector.
 3. For it no needs to send digital signal (0-1-0…) during movement all the time with the long line beside the line of motor,so it more stable in hardware too.
 4. This tracking system also does not require code wheel, code strip and any special marking on tracking surface.
 5. You can change the sensitivlty,output alarm time and output signal level by [serial tools](https://github.com/markniu/Laser-Filament-Motion-Sensor/blob/main/tools/Fsensor_tool.exe) or send command.
+6. Even if there is no run out pin on the motherboard, it can also make beep alarm for your printer when it detect the filament clog or runout.
 ### How to install?
  The usage is almost the same as the switch filament runout sensor. there are a lot of instruction on that on the internet,[DIY filament runout sensor](https://youtu.be/gwHpXaj_6xE) , [Install runout sensor on Ender3/5 CR10](https://youtu.be/5Jt-Qc67FDo).
  
