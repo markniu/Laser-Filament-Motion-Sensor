@@ -1,12 +1,12 @@
 # Detect clog automatically
-Detect clog automatically, This is an independent laser motion sensor to sense filament clog or runout.
+Detect clog automatically, This is an independent laser motion sensor to sense filament clog and runout.
 ![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/531083500.jpg)  
 [Test video](https://youtu.be/U-0V2owizyw)
 ### What is it ?
 Block Diagram
 ![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/V28/26171942.png)  
 if it detect the clog or runout,it will set the output signal line to low or high voltage which tell the mother board to pause printing.
-it works with the motherboard which have run out connector. 
+so it works with all the motherboard which have run out connector. 
 
 ### What makes it specials?
 1. It compares the movement of extruder and filament at the same time.that means you do not need to worry about how long of the travel length and how much of the travel time in non print moves while printing with other filament sensor like [bigtree](https://www.bigtree-tech.com/products/bigtreetech-smart-filament-sensor.html)
