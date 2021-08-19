@@ -10,8 +10,8 @@ so it works with all the motherboard which have run out connector.
 
 ### What makes it specials?
 1. It compares the movement of extruder and filament at the same time.that means you do not need to worry about how long of the travel length and how much of the travel time in non print moves while printing with other filament sensor like [bigtree](https://www.bigtree-tech.com/products/bigtreetech-smart-filament-sensor.html)
-2. There is a micro controller on the board that read the sensor and process the algorithm instead of directly by motherboard that process this with the lowest priority and not fast enough sometimes
-3. For it no needs to send digital signal (0-1-0…) during movement all the time with the long line beside the line of motor,so it more stable in hardware too.
+2. There is a micro controller on the board that read the filament sensor and motor current, then process the algorithm instead of motherboard(marlin) to process which has the lowest priority and not fast enough sometimes that will make mistake.
+3. For it no needs to send digital signal (0-1-0…) during movement all the time with the long signal line beside the lines of E motor which will make strong signal noise to the sensor line.
 4. This tracking system also does not require code wheel, code strip and any special marking on tracking surface.
 5. You can change the sensitivlty,output alarm time and output signal level by [serial tools](https://github.com/markniu/Laser-Filament-Motion-Sensor/blob/main/tools/Fsensor_tool.exe) or send command.
 6. Even if there is no run out pin on the motherboard, it can also make beep alarm for your printer when it detect the filament clog or runout.
