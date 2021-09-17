@@ -58,6 +58,9 @@ have test the A4988/TMC2208/TMC2209
  TMC2208    |  standalone | >500mA
  TMC2209     |  standalone | >500mA
  
+#### Support Colors:
+ I have tested several colors of filaments, and this sensor is very sensitive to all of these colors, including black, red, white, and transparent filaments.
+ 
  ### How to check
 you may need to check if it works as you expected after finishing installation at first time.   
 
@@ -76,5 +79,5 @@ mount on the PCB with 2 * Self Tapping Screw(M2.3*8)
 
 ### [Where to buy ](https://www.pandapi3d.com/product-page/laser-filament-motion-sensor)
 
-## [Facebook Support](https://www.facebook.com/groups/380795976169477/)
+### [Facebook Support](https://www.facebook.com/groups/380795976169477/)
 
