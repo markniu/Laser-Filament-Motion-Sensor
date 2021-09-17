@@ -75,3 +75,6 @@ recommend use it as standalone mode.for some uart mode, you need to increase the
 mount on the PCB with 2 * Self Tapping Screw(M2.3*8)
 
 ### [Where to buy ](https://www.pandapi3d.com/product-page/laser-filament-motion-sensor)
+
+## [Facebook Support](https://www.facebook.com/groups/380795976169477/)
+
