@@ -4,7 +4,7 @@ Detect clog automatically, This is an independent laser motion sensor to sense f
 [Test video](https://youtu.be/U-0V2owizyw)
 ### What is it ?
 Block Diagram
-![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/V28/26171942.png)  
+![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/26171942.png)  
 if it detect the clog or runout,it will set the output signal line to low or high voltage which tell the mother board to pause printing.
 so it works with all the motherboard which have run out connector. 
 
@@ -36,6 +36,10 @@ beside that I will also add more instructions  [Install on Ender3/5 CR10](https:
  USB     | 1,set the sensitive value.2,get the motion data of filament and extruder motor.3,flash firmware if there is new firmware.serial port at baud rate 115200.
  Optical_Laser_Chip     | tracking the filament motion. the recommended distance between the chip and filament is at 3~4mm.Compliance to IEC/EN 60825-1 Eye Safety, Class 1 LASER power output level
  
+ 
+here is the data output from the micrusb while printing. we can see this module can read the filament move distance and the E axis motor move distance.
+ ![board di](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/0901180530.jpg) 
+ 
 #### Setting 
 Connect sensor to your printer with microUSB port,run [Fsensor_tool](https://github.com/markniu/Laser-Filament-Motion-Sensor/blob/main/tools/Fsensor_tool.exe), choose the serial port and click open.and then you can see the value on the board,and set them as you like.
 
@@ -47,11 +51,15 @@ Connect sensor to your printer with microUSB port,run [Fsensor_tool](https://git
 
 ### Supported drivers 
 have test the A4988/TMC2208/TMC2209
+
  Driver     |      mode  | current    
  -------- | :-----------   | :-----------  
  A4988     |  . | >500mA
  TMC2208    |  standalone | >500mA
  TMC2209     |  standalone | >500mA
+ 
+#### Support Colors:
+ I have tested several colors of filaments, and this sensor is very sensitive to all of these colors, including black, red, white, and transparent filaments.
  
  ### How to check
 you may need to check if it works as you expected after finishing installation at first time.   
@@ -70,3 +78,6 @@ recommend use it as standalone mode.for some uart mode, you need to increase the
 mount on the PCB with 2 * Self Tapping Screw(M2.3*8)
 
 ### [Where to buy ](https://www.pandapi3d.com/product-page/laser-filament-motion-sensor)
+
+### [Facebook Support](https://www.facebook.com/groups/380795976169477/)
+
