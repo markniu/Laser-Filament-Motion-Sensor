@@ -75,8 +75,9 @@ If the motor current is too low, it can not work probably,movement cannot be rec
 recommend use it as standalone mode.for some uart mode, you need to increase the current.also there is a hardware solution for the low current,need to change 4 resistors values,you can contact me with email or facebook.
 
 #### STL Files
-[filament in out](https://www.thingiverse.com/thing:4887998),[filament in out](https://www.thingiverse.com/thing:5038650),
-[mount for CR10S](https://www.thingiverse.com/thing:5025446),[mount for ender3](https://www.thingiverse.com/thing:5038668)
+[Filament INOUT](https://www.thingiverse.com/thing:4887998),[Filament INOUT](https://www.thingiverse.com/thing:5038650) 
+
+[Mount for CR10S](https://www.thingiverse.com/thing:5025446),[Mount for Ender3](https://www.thingiverse.com/thing:5038668)
 
 mount on the PCB with 2 * Self Tapping Screw(M2.3*8)
 
