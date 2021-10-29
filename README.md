@@ -1,5 +1,5 @@
 # Detect clog automatically with laser motion sensor
-Detect clog automatically, This is an independent laser motion sensor to sense filament clog and runout.
+Detect clog automatically, This is an independent laser motion sensor to sense filament clog and runout for your 3D printer.
 ![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/531083500.jpg)  
 [Test video](https://youtu.be/U-0V2owizyw)
 ### What is it ?
