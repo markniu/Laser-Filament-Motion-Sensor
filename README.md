@@ -74,7 +74,10 @@ that means it works,and then you can clear the buzzer by press the reset botton.
 If the motor current is too low, it can not work probably,movement cannot be recognized,because this module read the wave of motor current.
 recommend use it as standalone mode.for some uart mode, you need to increase the current.also there is a hardware solution for the low current,need to change 4 resistors values,you can contact me with email or facebook.
 
-#### [STL File](https://www.thingiverse.com/thing:4887998)
+#### STL Files
+[filament in out](https://www.thingiverse.com/thing:4887998),[filament in out](https://www.thingiverse.com/thing:5038650),
+[mount for CR10S](https://www.thingiverse.com/thing:5025446),[mount for ender3](https://www.thingiverse.com/thing:5038668)
+
 mount on the PCB with 2 * Self Tapping Screw(M2.3*8)
 
 ### [Where to buy ](https://www.pandapi3d.com/product-page/laser-filament-motion-sensor)
