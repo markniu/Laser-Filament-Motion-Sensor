@@ -1,4 +1,4 @@
-# Detect clog automatically with laser motion sensor
+# Detect clog automatically with laser motion sensor no need to change firmware
 Detect clog automatically, This is an independent laser motion sensor to sense filament clog and runout for your 3D printer.
 ![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/531083500.jpg)  
 [Test video](https://youtu.be/U-0V2owizyw)
@@ -8,13 +8,15 @@ Block Diagram
 if it detect the clog or runout,it will set the output signal line to low or high voltage which tell the mother board to pause printing.
 so it works with all the motherboard which have run out connector. 
 
+Even if there is no run out pin on the motherboard, it can also make beep alarm for your printer when it detect the filament clog or runout,that means you no need to change firmware.
+
 ### What makes it specials?
 1. It compares the movement of extruder and filament at the same time.that means you do not need to worry about how long of the travel length and how much of the travel time in non print moves while printing with other filament sensor like [bigtree](https://www.bigtree-tech.com/products/bigtreetech-smart-filament-sensor.html)
 2. There is a micro controller on the board that read the filament sensor and motor current, then process the algorithm instead of motherboard(marlin) to process which has the lowest priority and not fast enough sometimes that will make mistake.
 3. For it no needs to send digital signal (0-1-0…) during movement all the time with the long signal line beside the lines of E motor which will make strong signal noise to the sensor line.
 4. This tracking system also does not require code wheel, code strip and any special marking on tracking surface.
 5. You can change the sensitivlty,output alarm time and output signal level by [serial tools](https://github.com/markniu/Laser-Filament-Motion-Sensor/blob/main/tools/Fsensor_tool.exe) or send command.
-6. Even if there is no run out pin on the motherboard, it can also make beep alarm for your printer when it detect the filament clog or runout.
+6. Even if there is no run out pin on the motherboard, it can also make beep alarm for your printer when it detect the filament clog or runout,that means you no need to change firmware.
 ### How to install?
  The usage is almost the same as the switch filament runout sensor. there are a lot of instruction on that on the internet,[DIY filament runout sensor](https://youtu.be/gwHpXaj_6xE) , [Install runout sensor on Ender3/5 CR10](https://youtu.be/5Jt-Qc67FDo).
  
