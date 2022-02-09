@@ -1,6 +1,6 @@
 # Detect clog automatically (no need to change firmware)
 Detect clog automatically, This is an independent laser motion sensor to sense filament clog and runout for your 3D printer.
-![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/531083500.jpg)  
+![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/1151922.jpg) 
 [Test video](https://youtu.be/U-0V2owizyw)
 ### What is it ?
 Block Diagram
@@ -22,7 +22,7 @@ Even if there is no run out pin on the motherboard, it can also make beep alarm 
  
 beside that I will also add more instructions  [Install on Ender3/5 CR10](https://github.com/markniu/Laser-Filament-Motion-Sensor/wiki/Install-on-Ender3-5,CR10)
 
-![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/1151922.jpg) 
+![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/531083500.jpg)  
 
  Name     |      Description   
  -------- | :-----------   
