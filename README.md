@@ -43,6 +43,8 @@ here is the data output from the micrusb while printing. we can see this module 
  ![board di](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/0901180530.jpg) 
  
 #### Setting 
+No need to configure this module in most case!
+
 Connect sensor to your printer with microUSB port,run [Fsensor_tool](https://github.com/markniu/Laser-Filament-Motion-Sensor/blob/main/tools/Fsensor_tool.exe), choose the serial port and click open.and then you can see the value on the board,and set them as you like.
 
  Name     |      Description   
@@ -73,8 +75,9 @@ if the motor move for  xx seconds,the buzzer will sound and the LED beside the b
 that means it works,and then you can clear the buzzer by press the reset botton. 
 
 ### note: 
-If the motor current is too low, it can not work probably,movement cannot be recognized,because this module read the wave of motor current.
+1. If the motor current is too low, it can not work probably,movement cannot be recognized,because this module read the wave of motor current.
 recommend use it as standalone mode.for some uart mode, you need to increase the current.also there is a hardware solution for the low current,need to change 4 resistors values,you can contact me with email or facebook.
+2. The USB can not power the board,we should power it with the runout line which is 3 pins.
 
 #### STL Files
 [Filament INOUT](https://www.thingiverse.com/thing:4887998),[Filament INOUT](https://www.thingiverse.com/thing:5038650) 
