@@ -4,7 +4,7 @@ Detect clog automatically, This is an independent laser motion sensor to sense f
 [Test video](https://youtu.be/U-0V2owizyw)
 ### What is it ?
 Block Diagram
-![board diagram](https://gitee.com/markyue/pandapi_wiki/raw/master/imges/filament/26171942.png)  
+![board diagram](tools/226141727.jpg)  
 if it detect the clog or runout,it will set the output signal line to low or high voltage which tell the mother board to pause printing.
 so it works with all the motherboard which have run out connector. 
 
