@@ -53,6 +53,29 @@ Connect sensor to your printer with microUSB port,run [Fsensor_tool](https://git
  Alarm and Signal output time | Time of the buzzer sound and signal output, it can be set always on or other time you want.
  Signal output Logic level | LOW or HIGH,the default is LOW.  the recommended value is LOW.
 
+If you do not want use that tool or with non Windows OS, you can send text command with any other serial port tool.
+
+1)Command for Sensitivity is `Rxx;` xx=01~99 for example
+
+`R05;`
+
+2)Command for Signal output Logic level is `Lxx;`
+xx=00~01, 00 for the Low level,  01 High level.for example
+
+`L00; `
+
+`L01;`
+
+3)Command for Alarm and Signal output time is `Axx;`
+xx=01~64,if xx=00 means will alarm all the time.for example
+
+`A05;`
+
+`A00;`
+
+be sure there is a ';' in the command end, and the xx value is 2 letters.
+
+
 ### Supported drivers 
 have test the A4988/TMC2208/TMC2209
 
