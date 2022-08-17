@@ -73,7 +73,7 @@ xx=01~64,if xx=00 means will alarm all the time.for example
 
 `A00;`
 
-be sure there is a ';' in the command end, and the xx value is 2 letters.
+be sure there is a ';' in the command end, and the xx value must be 2 letters.
 
 
 ### Supported drivers 
