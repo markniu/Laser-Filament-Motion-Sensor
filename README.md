@@ -1,6 +1,8 @@
 # Detect clog automatically (no need to change firmware)
 Detect clog automatically, This is an independent laser motion sensor to sense filament clog and runout for your 3D printer.
+
 ![board diagram](https://raw.githubusercontent.com/markniu/Laser-Filament-Motion-Sensor/main/tools/1151922.jpg) 
+
 [Test video](https://youtu.be/U-0V2owizyw)
 ### What is it ?
 Block Diagram
